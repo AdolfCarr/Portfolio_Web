@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.footer-area {
+  font-family: "Poppins", sans-serif;
+  /* margin-top: 100px; */
+  padding: 100px 0;
+  /* border: 1px solid #333; */
+  background: #1e5799;
+  background: -moz-linear-gradient(
+    left,
+    #1e5799 0%,
+    #207cca 33%,
+    #207cca 45%,
+    #2989d8 56%,
+    #7db9e8 100%
+  );
+  background: -webkit-linear-gradient(
+    left,
+    #1e5799 0%,
+    #207cca 33%,
+    #207cca 45%,
+    #2989d8 56%,
+    #7db9e8 100%
+  );
+  background: linear-gradient(
+    to right,
+    #1e5799 0%,
+    #207cca 33%,
+    #207cca 45%,
+    #2989d8 56%,
+    #7db9e8 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 );
+  position: relative;
+}
+.main {
+  width: 95%;
+  margin: 0 auto;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.single-footer {
+  width: 170px;
+  /* border: 1px solid #333; */
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.single-footer:nth-child(1) {
+  width: 300px;
+  padding: 10px;
+}
+.single-footer:nth-child(4) {
+  width: 400px;
+  padding: 10px;
+}
+.single-footer h4 {
+  text-transform: capitalize;
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #f8f8ff;
+}
+.single-footer p {
+  text-transform: capitalize;
+  font-size: 15px;
+  margin-bottom: 20px;
+  color: #f8f8ff;
+}
+.footer-social a {
+  color: #f8f8ff;
+  border: 1px solid #f8f8ff;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background-color: #f8f8ff;
+}
+.footer-social {
+  margin-top: 20px;
+}
+.single-footer ul {
+  list-style: none;
+}
+.single-footer ul li {
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 20px;
+}
+.single-footer ul li a {
+  color: #f8f8ff;
+  /* text-transform: capitalize; */
+  text-decoration: none;
+  margin: 10px;
+}
+.single-footer ul li a i {
+  position: absolute;
+  left: 0;
+  top: 5px;
+}
+.single-footer ul li a i .change-my-color {
+  fill: #f8f8ff;
+}
+.copy {
+  text-align: center;
+  text-transform: capitalize;
+  margin-top: 50px;
+  color: #f8f8ff;
+}
+@media only screen and (max-width: 600px) {
+  .main {
+    width: 320px;
+  }
+  .single-footer:nth-child(1),
+  .single-footer:nth-child(4) .single-footer {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
