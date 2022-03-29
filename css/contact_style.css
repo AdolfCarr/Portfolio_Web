@@ -1,0 +1,114 @@
+.contact-me {
+  font-family: "Poppins", sans-serif;
+  background-image: url("../pictures/main_picture.png");
+  /* background-image: url("/pictures/main_picture.png"); this for the show the background image in the live server VSC*/
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  /*background: #191919;*/
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid black;
+}
+.contact-me p {
+  color: #f8f8ff;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 30px;
+  text-align: center;
+}
+.contact-me-container {
+  display: flex;
+  width: 90%;
+  justify-content: space-around;
+  height: 88vh;
+  /* position: relative; */
+}
+form {
+  max-width: 550px;
+  width: 100%;
+  background: #f8f8ff;
+  margin: 0 auto 0 auto;
+  padding: 30px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  height: 70vh;
+}
+label {
+  font-weight: bold;
+  letter-spacing: 1px;
+  display: block;
+  /* margin: 20px, 0; */
+}
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  outline: none;
+  resize: none;
+  border: none;
+  border-bottom: 1px solid #d3d3d3;
+  margin: 5px;
+  background-color: #f8f8ff;
+}
+input[type="text"]:focus,
+textarea:focus {
+  border-bottom: 1px solid rgb(255, 0, 106);
+}
+textarea::-webkit-scrollbar {
+  width: 4px;
+}
+textarea::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 0, 106);
+}
+.center {
+  text-align: center;
+}
+input[type="submit"] {
+  margin-top: 30px;
+  width: 90%;
+  max-width: 200px;
+  background: #1e5799;
+  background: -moz-linear-gradient(
+    left,
+    #1e5799 0%,
+    #207cca 33%,
+    #207cca 45%,
+    #2989d8 56%,
+    #7db9e8 100%
+  );
+  background: -webkit-linear-gradient(
+    left,
+    #1e5799 0%,
+    #207cca 33%,
+    #207cca 45%,
+    #2989d8 56%,
+    #7db9e8 100%
+  );
+  background: linear-gradient(
+    to right,
+    #1e5799 0%,
+    #207cca 33%,
+    #207cca 45%,
+    #2989d8 56%,
+    #7db9e8 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 );
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 3px;
+  color: #d3d3d3;
+}
+.error {
+  color: red;
+}
+.error-border {
+  border-bottom: 1px solid red;
+}
+#success {
+  color: #28a745;
+}

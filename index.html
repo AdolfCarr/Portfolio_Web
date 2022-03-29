@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/test_box_style.css">
     <link rel="stylesheet" href="css/navBar_style.css">
     <link rel="stylesheet" href="css/footer_style.css">
+    <link rel="stylesheet" href="css/contact_style.css">
     <title>Portfolio</title>
 </head>
 <body>
@@ -35,6 +36,33 @@
             <p>Test text</p>
         </div> 
     </div>
+    <!--Contact Me-->
+    <section class="contact-me" id="contact">
+        <p>Let´s get the ball rolling.</p>
+        <div class="contact-me-container">
+            <form onsubmit="event.preventDefault(); validateForm()">
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Type your name">
+                <small class="error"></small>
+
+                <label for="email">Email:</label>
+                <input type="text" id="email" placeholder="Enter your email">
+                <small class="error"></small>
+
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" placeholder="Type item message">
+                <small class="error"></small>
+
+                <label for="message">Message:</label>
+                <textarea id="message" rows="6" placeholder="Type your message"></textarea>
+                <small class="error"></small>
+                <div class="center">
+                    <input type="submit" value="Send Message">
+                    <p id="success"></p>
+                </div>
+            </form>
+        </div>
+    </section>
     <!--footer start-->
     <footer class="footer-area">
         <div class="main">
@@ -121,5 +149,6 @@
         </div>
     </footer>
     <script src="js/navBar.js"></script>
+    <script src="js/contact.js"></script>
 </body>
 </html>
