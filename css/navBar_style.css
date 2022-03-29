@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 nav {
+  font-family: 'Roboto', sans-serif;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -34,7 +35,6 @@ nav {
     #7db9e8 100%
   );
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 );
-  font-family: "Poppins", sans-serif;
 }
 .logo {
   color: #f8f8ff;
