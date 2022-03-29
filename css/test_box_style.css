@@ -1,0 +1,21 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.box {
+  height: 97vh;
+  width: 90%;
+  border: 2px black solid;
+  margin: 10px auto;
+}
+.inner-box{
+  height: 10%;
+  width: 20%;
+  border: 2px black solid;
+  margin: 45vh auto;
+}
+.inner-box p{
+  padding: 25px 10px;
+  text-align: center;
+}
