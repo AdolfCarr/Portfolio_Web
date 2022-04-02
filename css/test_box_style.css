@@ -4,19 +4,19 @@
   box-sizing: border-box;
 }
 .box {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   height: 97vh;
-  width: 90%;
+  width: 50%;
   border: 2px black solid;
   margin: 10px auto;
 }
-.inner-box{
+.inner-box {
   height: 10%;
   width: 20%;
   border: 2px black solid;
   margin: 45vh auto;
 }
-.inner-box p{
+.inner-box p {
   padding: 25px 10px;
   text-align: center;
 }

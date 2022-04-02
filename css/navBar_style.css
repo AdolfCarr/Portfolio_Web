@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 nav {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -36,7 +36,7 @@ nav {
   );
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 );
 }
-.logo {
+.logo h4 {
   color: #f8f8ff;
   text-transform: uppercase;
   letter-spacing: 5px;
