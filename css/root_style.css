@@ -80,6 +80,8 @@ html {
 }
 
 body {
+  /*If no used height at 100vh the bottom part of footer remains a blank space*/
+  height: 100vh;
   margin: 0 0 var(--header-height) 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);

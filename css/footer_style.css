@@ -125,7 +125,8 @@
     width: 320px;
   }
   .single-footer:nth-child(1),
-  .single-footer:nth-child(4) .single-footer {
+  .single-footer:nth-child(4),
+  .single-footer {
     width: 100%;
     margin-bottom: 30px;
   }
