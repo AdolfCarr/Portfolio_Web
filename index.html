@@ -73,7 +73,7 @@
                                 129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
                                 -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
                                 <image class="home__blob-img" x="37" y="20"
-                                    xlink:href="pictures/sponche_bob_square_pants_profile-II.jpg"/>
+                                    xlink:href="pictures/sponche_bob_square_pants_profile-II.jpg" />
                             </g>
                         </svg>
                     </div>
@@ -124,9 +124,11 @@
                     engineering and submit small projects in the area of automation and electrical businesses.
                     I am a curious person and I like to solve problems, learn is an escencial part of my day to day and
                     challenges motivate me to find the best solutions.
-                    I am looking for opportunities to do internships (not restricted) in the area of information technology, where I can
+                    I am looking for opportunities to do internships (not restricted) in the area of information
+                    technology, where I can
                     develop my technical knowledge and grow together with the company and my co-workers.
-                    My main aim to develop in my career is the algorithms research and computer vision area, I´think is an exciting
+                    My main aim to develop in my career is the algorithms research and computer vision area, I´think is
+                    an exciting
                     field to work now days, also the web development is interesting to me. I like to work in the middle
                     way of math and programming, it´s an exciting merge in the development of the future technologies.
                 </p>
@@ -464,7 +466,7 @@
     <section class="contact-me" id="contact">
         <p>Let´s get the ball rolling.</p>
         <div class="contact-me-container">
-            <form onsubmit="event.preventDefault(); validateForm()">
+            <form id="contactForm" onsubmit="event.preventDefault(); validateForm()">
                 <label for="name">Name:</label>
                 <input type="text" id="name" placeholder="Type your name">
                 <small class="error"></small>
@@ -481,7 +483,7 @@
                 <textarea id="message" rows="6" placeholder="Type your message"></textarea>
                 <small class="error"></small>
                 <div class="center">
-                    <input type="submit" value="Send Message">
+                    <input type="submit" value="Send Message" id="send__button">
                     <p id="success"></p>
                 </div>
             </form>
@@ -573,8 +575,9 @@
         </div>
     </footer>
     <script src="js/navBar.js"></script>
-    <script src="js/contact.js"></script>
+    <!-- <script src="js/contact.js"></script> -->
     <script src="js/skills.js"></script>
+    <script src="js/contact_II.js"></script>
 </body>
 
 </html>

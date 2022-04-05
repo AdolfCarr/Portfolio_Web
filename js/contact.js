@@ -4,12 +4,13 @@ const message = document.querySelector("#message");
 const subject = document.querySelector("#subject");
 const success = document.querySelector("#success");
 const errorNodes = document.querySelectorAll(".error");
+const buttonStatus = document.getElementById("send__button");
+
 //validate data
 function validateForm() {
-
+    var errorFlag = false;
     clearMessages();
-    let errorFlag = false;
-
+    
     if (nameinput.value.trim().length < 1) {
         errorNodes[0].innerText = "Name cannot be blank";
         nameinput.classList.add("error-border");
@@ -43,6 +44,7 @@ function clearMessages() {
     nameinput.classList.remove("error-border");
     email.classList.remove("error-border");
     message.classList.remove("error-border");
+    subject.classList.remove("error-border");
 }
 //check if email is valid
 function emailIsValid(email) {
