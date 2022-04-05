@@ -6,7 +6,6 @@ const success = document.querySelector("#success");
 const errorNodes = document.querySelectorAll(".error");
 const buttonStatus = document.getElementById("send__button");
 
-// function checkName() {
     nameinput.addEventListener("keyup", (e) => {
     console.log("reading event on name field");
     const valueName = e.currentTarget.value;
@@ -95,6 +94,8 @@ function validateForm() {
         buttonStatus.disabled = true;
         // errorFlag = false;
         // console.log("disabled");
+    }else{
+        buttonStatus.disabled = false;
     }
 }
 // //clear errors/ success messages
